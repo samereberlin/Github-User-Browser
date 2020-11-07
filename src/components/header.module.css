@@ -1,0 +1,15 @@
+.header {
+  align-items: center;
+  background-color: #24292f;
+  color: white;
+  display: flex;
+  font-size: 1.5em;
+  font-weight: bold;
+  justify-content: center;
+  padding: 8px;
+}
+
+.logo {
+  width: 32px;
+  padding-right: 8px;
+}
