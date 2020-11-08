@@ -1,3 +1,47 @@
 .content {
   flex-grow: 1;
+  padding: 8px;
+}
+
+.description {
+  padding-top: 16px;
+}
+
+.extraInfo {
+  display: flex;
+  padding-top: 16px;
+}
+
+.extraInfoSince {
+  flex-grow: 1;
+}
+
+.image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.links {
+  padding: 16px;
+}
+
+.linksContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.name {
+  color: #404040;
+  font-size: 2em;
+  font-weight: bold;
+  padding-left: 8px;
+}
+
+.progress {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
 }
