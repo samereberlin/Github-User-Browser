@@ -1,6 +1,10 @@
 # UserBrowser
 
-UserBrowser is a simple app to browser GitHub users.
+GithubUserBrowser is a simple ReactJS application to browser GitHub users.
+
+It was implemented for didactic reasons, therefore it is not yet ready for production (see [Next steps](#next-steps) section below).
+
+## Instructions to run
 
 It is a standard ReactJS project (created with `npx create-react-app...`), so basically:
 
@@ -12,7 +16,7 @@ npm start
 ```
 _More details at [README.CRA.md](README.CRA.md) (from create-react-app)._
 
-## Design decisions:
+## Design decisions
 
 Following the KISS design principle...
 
@@ -22,7 +26,7 @@ Following the KISS design principle...
 
 - It is not using any global state container (like MobX, Redux, etc.), because there are only one object and one arrays of data (managed by its own component/consumer).
 
-## TO-DO list (next steps):
+## Next steps
 
 The application still needs a lot of adjustments to reach the production level, and the list below presents the main/urgent needs according to my feeling...
 
