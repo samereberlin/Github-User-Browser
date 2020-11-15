@@ -1,16 +1,20 @@
-# UserBrowser
+# GithubUserBrowser
 
 GithubUserBrowser is a simple ReactJS application to browser GitHub users.
 
 It was implemented for didactic reasons, therefore it is not yet ready for production (see [Next steps](#next-steps) section below).
+
+The following video presents the basic usage:
+
+[BasicUsage.mp4](BasicUsage.mp4)
 
 ## Instructions to run
 
 It is a standard ReactJS project (created with `npx create-react-app...`), so basically:
 
 ```
-git clone https://github.com/samereberlin/UserBrowser.git
-cd UserBrowser
+git clone https://github.com/samereberlin/GithubUserBrowser.git
+cd GithubUserBrowser
 npm i
 npm start
 ```
